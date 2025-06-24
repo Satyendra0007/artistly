@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Ravi Kumar",
+    "category": ["Singer"],
+    "city": "Delhi",
+    "feeRange": "₹10,000 - ₹25,000"
+  },
+  {
+    "name": "Priya Singh",
+    "category": ["Dancer", "DJ"],
+    "city": "Mumbai",
+    "feeRange": "₹5,000 - ₹10,000"
+  },
+  {
+    "name": "Arjun Mehta",
+    "category": ["Speaker"],
+    "city": "Bangalore",
+    "feeRange": "₹25,000 -₹45,000"
+  },
+  {
+    "name": "Simran Kaur",
+    "category": ["DJ"],
+    "city": "Chandigarh",
+    "feeRange": "₹8,000 - ₹15,000"
+  },
+  {
+    "name": "Nikhil Verma",
+    "category": ["Singer", "Speaker"],
+    "city": "Hyderabad",
+    "feeRange": "₹15,000 - ₹30,000"
+  },
+  {
+    "name": "Ananya Sharma",
+    "category": ["Dancer"],
+    "city": "Jaipur",
+    "feeRange": "₹5,000 - ₹12,000"
+  },
+  {
+    "name": "Kabir Malhotra",
+    "category": ["Speaker", "DJ"],
+    "city": "Pune",
+    "feeRange": "₹12,000 - ₹20,000"
+  },
+  {
+    "name": "Ayesha Khan",
+    "category": ["Singer", "Dancer"],
+    "city": "Lucknow",
+    "feeRange": "₹10,000 - ₹18,000"
+  },
+  {
+    "name": "Vikram Chauhan",
+    "category": ["DJ"],
+    "city": "Delhi",
+    "feeRange": "₹7,000 - ₹14,000"
+  },
+  {
+    "name": "Meera Joshi",
+    "category": ["Dancer", "Speaker"],
+    "city": "Ahmedabad",
+    "feeRange": "₹9,000 - ₹22,000"
+  }
+]

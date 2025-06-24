@@ -1,0 +1,22 @@
+[
+  {
+    "thumbnail": "https://t3.ftcdn.net/jpg/03/26/52/14/360_F_326521465_d3Lv3za5GEGqYAR3M8bem2mHY1vjvmJP.jpg",
+    "category": "Singer",
+    "route": "/artists"
+  },
+  {
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhDMpHsu5NyEHS3cYM4PzPqlZML07--twyw&s",
+    "category": "Dance",
+    "route": "/artists"
+  },
+  {
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeonZBcgnlTtwlzVYh-pb6VlpvgNgxt_1Qw&s",
+    "category": "Speakers",
+    "route": "/artists"
+  },
+  {
+    "thumbnail": "https://www.shutterstock.com/image-photo/club-dj-mixing-music-set-600nw-2294314133.jpg",
+    "category": "Djs",
+    "route": "/artists"
+  }
+]
