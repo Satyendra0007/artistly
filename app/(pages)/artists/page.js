@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import ArtistCard from '../../components/ArtistCard'
 import data from "@/app/data/artistData.json"
 
-export default function page() {
+export default function Page() {
   const [artists, setArtists] = useState(data);
   const [categoryFilter, setCategoryFilter] = useState("");
   const [locationFilter, setLocationFilter] = useState("");

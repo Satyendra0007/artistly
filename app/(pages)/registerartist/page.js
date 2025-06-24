@@ -20,7 +20,7 @@ const schema = yup.object().shape({
   location: yup.string().required("Location is required"),
 });
 
-export default function page() {
+export default function Page() {
   const {
     register,
     handleSubmit,
