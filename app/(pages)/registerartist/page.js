@@ -4,6 +4,8 @@ import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { FaAngleDown } from "react-icons/fa6";
+import bg from "@/app/images/bg.jpg"
+import Image from "next/image";
 
 // Dummy data for categories and languages
 const categories = ["Singer", "Dancer", "DJ", "Speaker"];
@@ -27,6 +29,7 @@ export default function Page() {
     formState: { errors },
     setValue,
     watch,
+    reset
   } = useForm({
     resolver: yupResolver(schema),
     defaultValues: {
@@ -57,16 +60,18 @@ export default function Page() {
 
   // Form submit handler
   const onSubmit = (data) => {
-    console.log("Form Data:", data);
+    console.log("Form Data:", { ...data });
+    alert("form submitted ")
+    reset();
   };
 
   return (
 
     <div className="h-fit relative p-3 ">
       <div className="image h-full absolute top-0 left-0 -z-10 ">
-        <img className="h-full object-cover " src="https://cdn.eventplanner.net/imgs/adv-3812/12437-hp-sb-desktop-sprdlux-events@2x.jpg" alt="backgroud image" />
+        {/* <Image className="h-full object-cover  w-full " width={600} height={700} quality={100} priority src={bg} alt="background image" ></Image> */}
+        <img className="h-full object-cover  w-full" src="https://cdn.eventplanner.net/imgs/adv-3812/12437-hp-sb-desktop-sprdlux-events@2x.jpg" alt="background image" />
       </div>
-
       <div className="max-w-lg mx-auto p-6 bg-white/90 rounded-lg shadow">
         <h2 className="text-2xl font-semibold mb-4 text-center">Artist Onboarding Form</h2>
 

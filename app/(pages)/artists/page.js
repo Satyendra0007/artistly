@@ -62,8 +62,11 @@ export default function Page() {
 
       </div>
 
-      {/* Artists list      */}
-      <div className='grid gap-4 place-items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+      {/*-------------------------- Artists list  ----------------------    */}
+      {/* if not any matches found  */}
+      {(!filteredArtists.length) && <p className='font-semibold text-3xl text-center mt-10'> No Mathes Found </p>}
+
+      <div className=' min-h-[70vh] grid gap-4 place-items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
 
         {filteredArtists.map((artist) => {
           return <ArtistCard key={artist.id} {...artist} />

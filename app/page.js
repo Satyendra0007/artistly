@@ -1,5 +1,7 @@
 import CategoryCard from "./components/CategoryCard";
 import categories from "@/app/data/categories.json"
+import bg from "@/app/images/bg.jpg"
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -7,7 +9,10 @@ export default function Home() {
       {/*-------------------- herosection -------------------------------------*/}
       <div className="herosection h-[70vh] md:h-[90vh] relative ">
         <div className="image h-full absolute top-0 left-0 -z-10 ">
-          <img className="h-full object-cover " src="https://cdn.eventplanner.net/imgs/adv-3812/12437-hp-sb-desktop-sprdlux-events@2x.jpg" alt="" />
+
+          {/* <Image className="h-full object-cover  w-full " width={600} height={700} quality={100} priority src={bg} alt="background image" ></Image> */}
+
+          <img className="h-full object-cover  w-full" src="https://cdn.eventplanner.net/imgs/adv-3812/12437-hp-sb-desktop-sprdlux-events@2x.jpg" alt="background image" />
         </div>
         <div className="desc h-full bg-black/50  text-white flex justify-center items-center p-2">
           <div className="text max-w-xl md:max-w-3xl space-y-6">

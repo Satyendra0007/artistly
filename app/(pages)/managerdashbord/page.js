@@ -15,13 +15,13 @@ export default function Page() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto p-6 bg-white rounded-lg shadow">
+    <div className="max-w-5xl min-h-[70vh] mx-auto p-6 bg-white rounded-lg shadow">
       <h2 className="text-2xl font-semibold mb-4">Manager Dashboard</h2>
 
       {(!artists.length) ? (
         <p className="text-center text-gray-600">No artist submissions found.</p>
       ) : (
-        
+
         <div className="overflow-x-auto">
           <table className="min-w-[600px] w-full border text-sm">
             <thead>
